@@ -1,0 +1,26 @@
+.btn {
+    border: none;
+    color: $whiteText;
+    cursor: pointer;
+}
+
+.btn--slide{
+    background-color: $colorBtnSlide;
+    width: $btnSizeSlide;
+    height: $btnSizeSlide;
+    box-shadow: 0 0 5px $colorBoxShawdownLight;
+    opacity: 0.5;
+}
+.btn--slide:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn--detail{
+    $colorBtn: #E51937;
+    $heightBtn: 48px;
+    $widthBtn: 102px;
+    width: $widthBtn;
+    height: $heightBtn;
+    background-color: $colorBtn;
+}

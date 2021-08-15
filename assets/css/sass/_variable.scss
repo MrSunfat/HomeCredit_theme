@@ -1,0 +1,32 @@
+// color
+$colorHeader: #E31836;
+$colorFooter: #E31836;
+$whiteText: #fff;
+$primaryText: #E21838;
+$secondaryText: #D11B21;
+$colorBoder: #fff;
+$colorBoxShawdown: rgba(0, 0, 0, 0.3);
+$brigthColorBoxShawdown: rgba(0, 0, 0, 0.1);
+$colorBoxShawdownLight: rgba(255, 255, 255, 0.3);
+$colorTop: #E5E5E5;
+$colorBtnSlide: #E70E05;
+
+$textTitleColor: #4C4C4C;
+$textContentColor: #333333;
+
+$boderColorFirm: #DDDDDD;
+// ----
+$heightHeader: 125px;
+$heightHeaderMain: 60px;
+$heightHeaderAbove: $heightHeader - $heightHeaderMain;
+$heightTitleHeader: $heightHeaderMain;
+
+// btn
+$btnSizeSlide: 36px;
+
+
+
+@mixin sizeDiv($height, $width){
+    max-width: $width;
+    height: $height;
+}
