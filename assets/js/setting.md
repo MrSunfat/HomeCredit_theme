@@ -9,7 +9,6 @@
         + dots
     - reason__img: 
         + auto scroll-X
-        + scroll-bar only laptop
     - share__img: 
         + next, prev (not mobile)
         + auto scroll-X
