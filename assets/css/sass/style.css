@@ -1703,7 +1703,7 @@ body {
 }
 
 .body__benefit {
-  background-image: url(/assets/img/benefit/group-2@2x.png);
+  background-image: url("https://www.homecredit.vn/images/group-2@2x.png");
   -o-object-fit: contain;
      object-fit: contain;
   text-shadow: 0 0 3px #ccc;
