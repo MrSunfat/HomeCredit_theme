@@ -103,7 +103,7 @@ var widthWindow;
 window.addEventListener("resize", function() {
 
     widthWindow = window.innerWidth;
-    console.log(widthWindow);
+    
     if(widthWindow < 1024) {
         headerAbove.style.display = "none";
         header.style.height = headerMainHeight + "px";
