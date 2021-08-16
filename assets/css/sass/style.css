@@ -1359,9 +1359,12 @@ body {
 }
 
 .body__reason__goodpoint .goodpoint__img {
+  position: relative;
+}
+
+.body__reason__goodpoint .goodpoint__img:hover {
   -webkit-animation: rotate 3s linear;
           animation: rotate 3s linear;
-  position: relative;
 }
 
 .body__reason__goodpoint .goodpoint__img::before {

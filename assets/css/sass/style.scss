@@ -721,8 +721,10 @@ body{
             $colorBorder: #F5F5F6;
             animation: fadeInX-X 0.7s linear;
             .goodpoint__img{
-                animation: rotate 3s linear;
                 position: relative;
+            }
+            .goodpoint__img:hover{
+                animation: rotate 3s linear;
             }
             .goodpoint__img::before{
                 content: "Quá tuyệt vời ...!";
