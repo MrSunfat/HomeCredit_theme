@@ -1521,6 +1521,12 @@ body {
   border-radius: 5px;
 }
 
+.body__where__firms .firm .firm-img:hover {
+  border-color: aqua;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 .body__where__firms::-webkit-scrollbar {
   height: 8px;
   -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -1573,6 +1579,7 @@ body {
   font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 219.8px;
 }
 
 .body__store .container .body__store-storeList a, .body__store .container .body__store-placeList a {
@@ -2101,7 +2108,9 @@ body {
   .body__where__firms .firm {
     min-width: calc(100% / 4) !important;
   }
-  .footer__main .share__title, .footer__main .download__title, .footer__main .call__title, .footer__main .download__title, .footer__main .call__title {
+  .footer__main .share__title, .footer__main .download__title, .footer__main .call__title,
+  .footer__main .download__title,
+  .footer__main .call__title {
     padding-top: 10px;
   }
   .footer__main .col-items .col-item {
@@ -2171,7 +2180,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer__main .share__title, .footer__main .download__title, .footer__main .call__title, .footer__main .download__title, .footer__main .call__title {
+  .footer__main .share__title, .footer__main .download__title, .footer__main .call__title,
+  .footer__main .download__title,
+  .footer__main .call__title {
     padding-top: 15px;
   }
   .body__reason__content {

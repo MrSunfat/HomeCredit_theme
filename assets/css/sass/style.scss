@@ -864,6 +864,10 @@ body{
                     border: 1px solid $boderColorFirm;
                     border-radius: 5px;
                 }
+                .firm-img:hover{
+                    border-color: aqua;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
             }
         }
         &__firms::-webkit-scrollbar{
@@ -907,6 +911,7 @@ body{
                 font-weight: 800;
                 margin-top: 20px;
                 margin-bottom: 20px;
+                height: 219.8px;
                 a{
                     text-decoration: none;
                     font-size: 20px;
