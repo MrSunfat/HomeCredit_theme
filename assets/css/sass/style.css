@@ -1455,9 +1455,10 @@ body {
   background: #cdcdcd;
   background: -webkit-gradient(linear, left bottom, left top, from(#cdcdcd), color-stop(50%, snow), to(#c9c9c9));
   background: linear-gradient(0deg, #cdcdcd 0%, snow 50%, #c9c9c9 100%);
-  margin: 0 80px 14px;
   font-size: 72px;
   color: #E21838;
+  margin: 0 60px 14px;
+  overflow-wrap: break-word;
 }
 
 .body__customers .container .body__customers-number::-webkit-scrollbar, .body__customers .container .body__customers-promotion::-webkit-scrollbar {

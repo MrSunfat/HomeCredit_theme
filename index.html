@@ -656,7 +656,7 @@
             <div class="row container">
               <div class="col l-6 m-6 c-12">
                 <div class="body__customers-number">
-                  <div class="number">11 310 000</div>
+                  <div class="number">11310000</div>
                   Khách hàng hài lòng
                 </div>
               </div>
@@ -1468,5 +1468,14 @@
       </ul>
     </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script>
+    $(".number").counterUp({
+      delay: 10,
+      time: 3000
+    });
+  </script>
   <script src="./assets/js/app.js"></script>
 </html>
