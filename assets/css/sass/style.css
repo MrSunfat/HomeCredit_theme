@@ -465,6 +465,24 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+* ::-webkit-scrollbar {
+  width: 8px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: #fd6576;
+  border-radius: 10px;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -1510,7 +1528,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
-  padding-bottom: 30px;
 }
 
 .body__where__firms .firm {
@@ -1519,31 +1536,24 @@ body {
   min-width: calc(100% / 6);
 }
 
-.body__where__firms .firm .firm-img {
+.body__where__firms .firm a {
+  display: block;
+}
+
+.body__where__firms .firm a .firm-img {
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 5px;
 }
 
-.body__where__firms .firm .firm-img:hover {
+.body__where__firms .firm a .firm-img:hover {
   border-color: aqua;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .body__where__firms::-webkit-scrollbar {
-  height: 8px;
-  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-}
-
-.body__where__firms::-webkit-scrollbar-thumb {
-  background-color: #E21838;
-  border-radius: 10px;
+  display: none;
 }
 
 .body__store {
@@ -1916,6 +1926,26 @@ body {
 
 .footer__source-content {
   margin: 0;
+}
+
+.owl-theme .owl-nav {
+  display: none;
+}
+
+.owl-theme .owl-dots {
+  margin-top: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 16px;
+  height: 16px;
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #DE232D;
 }
 
 /* // >= pc medium */

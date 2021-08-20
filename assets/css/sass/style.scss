@@ -10,6 +10,23 @@ html{
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+        cursor: pointer;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #fd6576;
+        border-radius: 10px; 
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
 }
 
 body{
@@ -857,33 +874,26 @@ body{
             list-style-type: none;
             display: flex;
             overflow-x: scroll;
-            padding-bottom: 30px;
             .firm{
                 padding: 10px 20px;
                 margin-top: 40px;
                 min-width: calc(100% / 6);
-                .firm-img{
-                    width: 100%;
-                    border: 1px solid $boderColorFirm;
-                    border-radius: 5px;
-                }
-                .firm-img:hover{
-                    border-color: aqua;
-                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                a{
+                    display: block;
+                    .firm-img{
+                        width: 100%;
+                        border: 1px solid $boderColorFirm;
+                        border-radius: 5px;
+                    }
+                    .firm-img:hover{
+                        border-color: aqua;
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                    }
                 }
             }
         }
         &__firms::-webkit-scrollbar{
-            height: 8px;
-            box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
-            border-radius: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            cursor: pointer;
-        }
-        &__firms::-webkit-scrollbar-thumb{
-            background-color: $primaryText;
-            border-radius: 10px;
+            display: none;
         }
     }
     &__store{
@@ -1209,6 +1219,27 @@ body{
             margin: 0;
         }
     }
+}
+
+// owl carousel
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots{
+    margin-top: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span 
+{
+    background-color: #DE232D;
 }
 
 @import "./responsive";
