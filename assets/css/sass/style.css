@@ -1467,6 +1467,7 @@ body {
   padding: 20px 0 30px;
   overflow-y: scroll;
   height: 175px;
+  scrollbar-width: none;
 }
 
 .body__customers .container .body__customers-number .number, .body__customers .container .body__customers-promotion .number {
@@ -1528,6 +1529,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
+  scrollbar-width: none;
 }
 
 .body__where__firms .firm {
@@ -1646,6 +1648,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
+  scrollbar-width: none;
 }
 
 .body__feeling__slides .body__feeling__slide-items .body__feeling__slide-item {

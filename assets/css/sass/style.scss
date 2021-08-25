@@ -822,7 +822,7 @@ body{
                 padding: 20px 0 30px;
                 overflow-y: scroll;
                 height: 175px;
-
+                scrollbar-width: none;
                 .number{
                     background: rgb(205,205,205);
                     background: linear-gradient(0deg, rgba(205,205,205,1) 0%, rgba(255,250,250,1) 50%, rgba(201,201,201,1) 100%);
@@ -874,6 +874,7 @@ body{
             list-style-type: none;
             display: flex;
             overflow-x: scroll;
+            scrollbar-width: none;
             .firm{
                 padding: 10px 20px;
                 margin-top: 40px;
@@ -970,7 +971,7 @@ body{
             .body__feeling__slide-items{
                 display: flex;
                 overflow-x: scroll;
-
+                scrollbar-width: none;
                 .body__feeling__slide-item{
                     
                     display: none;
